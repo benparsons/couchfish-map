@@ -33,7 +33,7 @@ function main(days) {
 
     // create a red polyline from an array of LatLng points
     for (day of days) {
-        var polyline = L.polyline(day, {color: 'red'}).addTo(mymap);
+        var polyline = L.polyline(day.points, {color: 'red'}).addTo(mymap);
     }
 // var latlngs = [
 //     [13.913906, -259.39785],
