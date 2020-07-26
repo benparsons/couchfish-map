@@ -1,5 +1,3 @@
-var accessToken = "pk.eyJ1IjoiYmVucGFyc29ucyIsImEiOiJja2Izbjd1eHAwYWZ4MnNueXhvd2dtNzQ1In0.P76aUNfy4k4QY_WKnxo7xA";
-
 var tick = 1690;
 var circles = [];
 
