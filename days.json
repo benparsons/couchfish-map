@@ -56,5 +56,15 @@
         [13.762322,-259.501834, "taking a right"],
         [13.763917,-259.504355, "onto Phra Sumen"],
         [13.756784,-259.501941, "Phranakorn Bar"]
-    ]}
+    ]},
+    {
+        "day": 4,
+        "points":[
+            [13.740354, -259.483187, "hualamphong station"],
+            [13.757018, -259.479100, "Train crosses Petchaburi Road"],
+            [13.779360, -259.469776, "Sam Sen station"],
+            [14.356616, -259.416754, "Ayutthaya"]
+
+        ]
+    }
 ]
