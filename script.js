@@ -28,9 +28,19 @@ function main(days) {
     mymap.on('click', onMapClick);
 
     // create a red polyline from an array of LatLng points
+    const colours = {};
+    colours["train"] = "blue";
+    for (day of days) {
+        L.polyline(
+            day.points,
+            { color: colours[day.mode] ?? 'red' }
+        ).addTo(mymap);
+    }
+
+
     polyline = L.polyline(
         days.map(d => d.points),
         { color: 'red' }
-    ).addTo(mymap);
+    );//.addTo(mymap);
     mymap.fitBounds(polyline.getBounds());
 }

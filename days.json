@@ -64,7 +64,7 @@
             [13.757018, -259.479100, "Train crosses Petchaburi Road"],
             [13.779360, -259.469776, "Sam Sen station"],
             [14.356616, -259.416754, "Ayutthaya"]
-
-        ]
+        ],
+        "mode": "train"
     }
 ]
