@@ -1,12 +1,8 @@
-var tick = 1690;
-var circles = [];
-
 function getJSON(path) {
     return fetch(path).then(response => response.json());
 }
 
 getJSON('/days.json').then(days => {
-    console.log(days);
     main(days);
 })
 
@@ -20,7 +16,7 @@ function main(days) {
         tileSize: 512,
         zoomOffset: -1
     }).addTo(mymap);
-    
+
 
     var popup = L.popup();
     function onMapClick(e) {
@@ -32,16 +28,9 @@ function main(days) {
     mymap.on('click', onMapClick);
 
     // create a red polyline from an array of LatLng points
-    for (day of days) {
-        var polyline = L.polyline(day.points, {color: 'red'}).addTo(mymap);
-    }
-// var latlngs = [
-//     [13.913906, -259.39785],
-//     [37.77, -122.43],
-//     [34.04, -118.2]
-// ];
-// var polyline = L.polyline(latlngs, {color: 'red'}).addTo(mymap);
-// zoom the map to the polyline
-//mymap.fitBounds(polyline.getBounds());
-
+    polyline = L.polyline(
+        days.map(d => d.points),
+        { color: 'red' }
+    ).addTo(mymap);
+    mymap.fitBounds(polyline.getBounds());
 }
