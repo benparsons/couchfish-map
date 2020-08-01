@@ -30,17 +30,20 @@ function main(days) {
     // create a red polyline from an array of LatLng points
     const colours = {};
     colours["train"] = "blue";
-    for (day of days) {
-        L.polyline(
+    for (const [i, day] of days.entries()) {
+        console.log(i)
+        let p = L.polyline(
             day.points,
             { color: colours[day.mode] ?? 'red' }
         ).addTo(mymap);
+        if (i === days.length - 1) {
+            mymap.fitBounds(p.getBounds());
+        }
     }
 
-
-    polyline = L.polyline(
-        days.map(d => d.points),
-        { color: 'red' }
-    );//.addTo(mymap);
-    mymap.fitBounds(polyline.getBounds());
+    // polyline = L.polyline(
+    //     days.map(d => d.points),
+    //     { color: 'red' }
+    // );//.addTo(mymap);
+    // mymap.fitBounds(polyline.getBounds());
 }
