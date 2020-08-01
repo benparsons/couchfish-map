@@ -70,5 +70,18 @@
             [14.356616, -259.416754, "Ayutthaya"]
         ],
         "mode": "train"
+    },
+    {
+        "day": 5,
+        "points": [
+            [14.356948, -259.417205, "From the station"],
+            [14.360846, -259.424329, "Guesthouse on 'the island'"],
+            [14.356969, -259.432483, "Wat Mahathat"],
+            [14.358762, -259.432628, "Wat Ratchaburana"],
+            [14.355878, -259.441473, "Into the park, Wat Phra Si Sanphet"],
+            [14.347739, -259.430315, "Ban Mai Rim Nam, seafood"],
+            [14.353342, -259.440615, "Kum Khun Phaan"],
+            [14.355535, -259.428245, "Bang Ian Night Market"]
+        ]
     }
 ]
