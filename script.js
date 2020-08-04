@@ -31,12 +31,13 @@ function main(days) {
     const colours = {};
     colours["train"] = "blue";
     for (const [i, day] of days.entries()) {
-        console.log(i)
+        let lastDay = i === days.length - 1;
         let p = L.polyline(
-            day.points,
-            { color: colours[day.mode] ?? 'red' }
-        ).addTo(mymap);
-        if (i === days.length - 1) {
+            day.points, {
+                color: colours[day.mode] ?? 'red',
+                weight: lastDay ? 3 : 1
+        }).addTo(mymap);
+        if (lastDay) {
             mymap.fitBounds(p.getBounds());
         }
     }
