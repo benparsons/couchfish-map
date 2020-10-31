@@ -117,5 +117,16 @@
             [14.801231, -259.391756, "Stroll by the river"],
             [14.796543, -259.392722, ""]
         ]
+    },
+    {
+        "day": 8,
+        "points": [
+            [14.802061, -259.384632, "Lopburi"],
+            [14.794966, -259.337082, "to"],
+            [14.726949, -259.206104, "Phra Phutthabat town"],
+            [14.718326, -259.211394, "Wat Phra Phutthabat"],
+            [16.447775, -259.653282, "Phichit station TODO this should have been a train"],
+            [16.478667, -260.464511, "Three J Guesthouse TODO this should have been a bus"]
+        ]
     }
 ]
