@@ -153,5 +153,18 @@
             [16.129932, -260.725007, "Khlong Lan waterfall"],
             [16.199839, -260.747795, "Khlong Nam Lai waterfall ... ?"]
         ]
+    },
+    {
+        "day": 11,
+        "points": [
+            [16.478739, -260.464527, "Kamphaeng Phet"],
+            [16.867634, -260.871048, "Tak, TODO bus"],
+            [16.723550, -261.416245, "Mae Sot, TODO bus"],
+            [16.717189, -261.418744, "Picturebook Guesthouse"],
+            [16.716696, -261.426297, "Wat Mani Praison"],
+            [16.714877, -261.436801, "Borderline Cafe"],
+            [16.698395, -261.470940, "Wat Thai Wattanaram"],
+            [16.692357, -261.482275, "Rim Moei Market"]
+        ]
     }
 ]
