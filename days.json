@@ -128,5 +128,14 @@
             [16.447775, -259.653282, "Phichit station TODO this should have been a train"],
             [16.478667, -260.464511, "Three J Guesthouse TODO this should have been a bus"]
         ]
+    },
+    {
+        "day": 9,
+        "points": [
+            [16.478667, -260.464511, "Three J Guesthouse"],
+            [16.502262, -260.486698, "Historical Park"],
+            [16.488477, -260.477992, "National Museum"],
+            [16.486805, -260.483238, "lunch by river"]
+        ]
     }
 ]
