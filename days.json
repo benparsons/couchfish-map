@@ -190,5 +190,33 @@
             [16.868496, -260.864997, "Tak"],
             [16.993755, -260.508156, "Halfway to Sukhothai"]
         ]
+    },
+    {
+        "day": 15,
+        "points": [
+            [16.871987, -260.875168, "Tak"],
+            [16.875478, -260.871992, "Mani Banphot Park"],
+            [16.871894, -260.875007, "Tak Museum"],
+            [16.868044, -260.875179, "Trok Ban Chin (Chinese Village Alley)"],
+            [16.878132, -260.879288, "Footbridge"]
+        ]
+    },
+    {
+        "day": 16,
+        "points": [
+            [17.014624, -260.187256, "Sukhothai bus stop"]
+        ]
+    },
+    {
+        "day": 17,
+        "points": [
+            [17.009145, -260.198221, "Ta Pui noodle bar"],
+            [17.017573, -260.290972, "Wat Traphang Thong"],
+            [17.017650, -260.292292, "Ramkamhaeng National Museum"],
+            [17.016901, -260.296111, "Wat Mahathat"],
+            [17.013639, -260.297710, "Wat Si Sawai"],
+            [17.016368, -260.300081, "Wat Traphang Ngoen"],
+            [17.019682, -260.298611, "Wat Sa Si"]
+        ]
     }
 ]
