@@ -1,14 +1,16 @@
+let mymap;
+
 function getJSON(path) {
     return fetch(path).then(response => response.json());
 }
 
 getJSON('/days.json').then(days => {
-    main(days);
+    renderDays(days);
 })
 
-function main(days) {
+function renderDays(days) {
     console.log("main starting")
-    var mymap = L.map('mapid').setView([13.742387, -259.490891], 10);
+    mymap = L.map('mapid').setView([13.742387, -259.490891], 10);
     L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${accessToken}`, {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18,
@@ -47,4 +49,17 @@ function main(days) {
     //     { color: 'red' }
     // );//.addTo(mymap);
     // mymap.fitBounds(polyline.getBounds());
+}
+
+function search(searchText) {
+    if (!searchText) {
+        searchText =  document.getElementById("txtSearch").value;
+    }
+    let nominatimUrl = `https://nominatim.openstreetmap.org/search.php?q=${searchText}&format=jsonv2`;
+    getJSON(nominatimUrl).then(results =>{
+        console.log(results);
+        let place = results[0];
+        var marker = L.marker([place.lat, place.lon]).addTo(mymap);
+        mymap.setView([place.lat, place.lon], 10);
+    })
 }
