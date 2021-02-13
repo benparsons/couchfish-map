@@ -60,7 +60,7 @@ function search(searchText) {
     getJSON(nominatimUrl).then(results =>{
         console.log(results);
         let top = [];
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < Math.min(5, results.length); i++) {
             let place = results[i];
             top.push([place.lat, place.lon]);
             var marker = L.marker(top[i]).addTo(mymap);
