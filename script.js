@@ -1,4 +1,5 @@
 let mymap;
+let results1;
 
 function getJSON(path) {
     return fetch(path).then(response => response.json());
@@ -58,8 +59,14 @@ function search(searchText) {
     let nominatimUrl = `https://nominatim.openstreetmap.org/search.php?q=${searchText}&format=jsonv2`;
     getJSON(nominatimUrl).then(results =>{
         console.log(results);
-        let place = results[0];
-        var marker = L.marker([place.lat, place.lon]).addTo(mymap);
-        mymap.setView([place.lat, place.lon], 10);
+        let top = [];
+        for (let i = 0; i < 5; i++) {
+            let place = results[i];
+            top.push([place.lat, place.lon]);
+            var marker = L.marker(top[i]).addTo(mymap);
+        }
+        mymap.setView([results[0].lat, results[0].lon], 10);
+        //let all = L.polyline(results.map(p => [parseFloat(p.lat), parseFloat(p.lon)]));
+        //mymap.fitBounds(all.getBounds());
     })
 }
