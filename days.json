@@ -244,5 +244,13 @@
             [16.823706, -259.737664, "Wat Phra Si Rattana Mahathat"],
             [16.805632, -259.732654, "Sgt. Maj. Thawee Folk Museum"]
         ]
+    },
+    {
+        "day": 20,
+        "points": [
+            [16.814999, -259.734778, "Phitsanulok"],
+            [16.989641, -258.994446, "Phu Hin Rong Kla National Park"],
+            [16.993473, -259.008994, "Lan Hin Pum"]
+        ]
     }
 ]
