@@ -252,5 +252,21 @@
             [16.989641, -258.994446, "Phu Hin Rong Kla National Park"],
             [16.993473, -259.008994, "Lan Hin Pum"]
         ]
+    },
+    {
+        "day": 21,
+        "points": [
+            [16.818555, 100.267410, "Phitsanulok"],
+            [16.866265, 100.632105, "Kaeng Song"],
+            [16.871589, 100.835009, "Kaeng Sopha"]
+        ]
+    },
+    {
+        "day": 21.5,
+        "points": [
+            [16.818555, 100.267410, "Phitsanulok"],
+            [17.981782, 100.055408, "Den Chai"]
+        ],
+        "mode": "train"
     }
 ]
