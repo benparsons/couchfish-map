@@ -34,6 +34,7 @@ function renderDays(days) {
     const colours = {};
     colours["train"] = "blue";
     for (const [i, day] of days.entries()) {
+        day.points = day.points.map(p => [p[0], p[1] < -180 ? p[1] + 360 : p[1], p[2]]);
         let lastDay = i === days.length - 1;
         let p = L.polyline(
             day.points, {
