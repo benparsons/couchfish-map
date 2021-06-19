@@ -60,6 +60,9 @@ function search(searchText) {
     let nominatimUrl = `https://nominatim.openstreetmap.org/search.php?q=${searchText}&format=jsonv2`;
     getJSON(nominatimUrl).then(results =>{
         console.log(results);
+        let presultsCount = document.getElementById("resultsCount")
+        resultsCount.innerText = results.length + " results";
+        if (results.length === 0) return;
         let top = [];
         for (let i = 0; i < Math.min(5, results.length); i++) {
             let place = results[i];
