@@ -268,5 +268,21 @@
             [17.981782, 100.055408, "Den Chai"]
         ],
         "mode": "train"
+    },
+    {
+        "day": 22,
+        "points": [
+            [18.144829, 100.142596, "Priwan's"],
+            [18.142479, 100.141625, "Charoen Muang and Rop Muang Roads"],
+            [18.147566, 100.144731, ""],
+            [18.133282, 100.123467, "Jin Sot, possibly"],
+            [18.143568, 100.136073, "Wongburi House"],
+            [18.143818, 100.136717, "Wat Pong Sunun"],
+            [18.144150, 100.138696, "Khum Chao Luang Museum"]
+        ],
+        "mode": "walk"
     }
+
+
+    
 ]
