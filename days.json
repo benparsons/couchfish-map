@@ -281,6 +281,29 @@
             [18.144150, 100.138696, "Khum Chao Luang Museum"]
         ],
         "mode": "walk"
+    },
+    {
+        "day": 23,
+        "title": "Around Phrae",
+        "points": [
+            [18.141708, 100.142494, "Gingerbread house"],
+            [18.086244, 100.204539, "Wat Phra That Cho Hae"],
+            [18.071932, 100.215327, "Wat Phrathat doi leng"],
+            [18.183907, 100.209855, "Phae Mueang Phi Park"]
+        ]
+    },
+    {
+        "day": 24,
+        "title": "Nan",
+        "points": [
+            [18.777643, 100.769654, "Nan Guesthouse"],
+            [18.776227, 100.770657, "National Museum"],
+            [18.777094, 100.771451, "Wat Hua Khuang"],
+            [18.776302, 100.772041, "Wat Phra That Chang Kham"],
+            [18.774308, 100.771666, "Wat Phumin"],
+            [18.774755, 100.769069, "Wat Ming Muang"],
+            [18.774311, 100.771955, "Night Market"]
+        ]
     }
 
 
