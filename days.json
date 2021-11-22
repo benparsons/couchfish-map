@@ -353,5 +353,26 @@
             [18.758947, 100.790334, "Wat Phra That Chae Haeng"],
             [18.769744, 100.750712, "Wat Phra That Khao Noi"]
         ]
+    },
+    {
+        "day": 30,
+        "points": [
+            [18.785598, 100.776558, "Nan"],
+            [19.179659, 100.915432, "Pua"],
+            [19.579174, 101.065292, "Ban Huay Kon"],
+            [19.615405, 101.112628, "Nguen (into Laos)"],
+            [19.741282, 101.098251, "Route 2W"],
+            [19.896056, 101.136103, "Pakbeng"]
+        ]
+    },
+    {
+        "day": 31,
+        "points": [
+            [19.896056, 101.136103, "Pakbeng"],
+            [20.690823, 101.987972, "Litthavixay Guesthouse, Muang Xay"],
+            [20.692469, 101.981176, "Souphalin Restaurant"],
+            [20.686679, 101.984206, "Phu That Wat"],
+            [20.686327, 101.982270, "red cross sauna"]
+        ]
     }
 ]
