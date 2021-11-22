@@ -25,7 +25,7 @@ function renderDays(days) {
     function onMapClick(e) {
         popup
             .setLatLng(e.latlng)
-            .setContent(`[${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)}, ""]`)
+            .setContent(`[${e.latlng.lat.toFixed(6)}, ${e.latlng.lng.toFixed(6)}, "${document.getElementById("txtSearch").value.trim()}"]`)
             .openOn(mymap);
     }
     mymap.on('click', onMapClick);
